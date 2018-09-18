@@ -1,0 +1,44 @@
+
+*{margin:0; padding: 0;}
+
+#container{
+    width: 100%;
+    height: 500px;
+}
+
+.head_part{ 
+    width: 100%;
+    height: 100px;}
+
+/*********************************/
+ .middel_part{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    background: url(img/sea.png) repeat-x;}
+    
+
+.p404{
+    display: inline-block;
+     margin:0 auto;
+     margin-top : 50px;
+    width: 50%;
+    height: 400px;
+    
+}
+
+h1{text-align: center; font:100px arial, sans-serif, bold;}
+
+img{
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;}
+
+
+/*********************************/
+.foot_part{
+    width: 100%;
+    height: 100px;
+}

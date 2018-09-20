@@ -6,39 +6,73 @@
     height: 500px;
 }
 
-.head_part{ 
-    width: 100%;
-    height: 100px;}
-
 /*********************************/
  .middel_part{
     width: 100%;
-    height: 700px;
+    height: 100vh;
     text-align: center;
-    background: url(img/sea.png) repeat-x;}
+    background: url(img/sea.jpg) repeat;
+}
     
 
 .p404{
     display: inline-block;
-     margin:0 auto;
-     margin-top : 50px;
+    margin:0 auto;
+    margin-top : 50px;
     width: 50%;
-    height: 400px;
-    
+    height: 400px;  
 }
 
-h1{text-align: center; font:100px arial, sans-serif, bold;}
+h1{
+    text-align: center;
+    font:bolder 100px arial, sans-serif, bold;
+    color: #fff;
+    margin-bottom: 30px;
+}
 
 img{
     display: block;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;}
+    text-align: center;
+}
+
+button{
+    font: 80px arial,sans-serif;
+    padding:20px;
+    background-color: #EC1C23;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
 
 
 /*********************************/
-.foot_part{
-    width: 100%;
-    height: 100px;
-}
+
+img:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
